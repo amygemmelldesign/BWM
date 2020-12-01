@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="New Album From La Dispute - Panorama - Out Now">
+  <meta name="X-UA-Compatible" content="IE=edge">
+  <title>Blue Water Music | La Dispute</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <!--Start of body-->
+  <div id="bgImg">
+    <!--Start Background Image-->
+    <header>
+      <!--Start of Header-->
+      <div id="headBgImg"></div>
+      <div id="topContain">
+        <img id="bwmLogo" src="images/bwm.svg" alt="Blue Water Music Logo">
+        <h1 id="headTxt">LA DISPUTE</h1>
+      </div>
+      <nav class="navbar navbar-expand-md navbar-light">
+        <!--Navbar start-->
+        <a class="navbar-brand" href="index.html"><img src="images/navImg.svg" alt="flower logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="coming-soon.html">COMING SOON</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="links.html">LINKS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="current">VIDEO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!--End of header-->
+    <main>
+      <!--Start of main-->
+      <div class="left">
+        <!--Start of left section-->
+        <h2 class="headTxt2">VIDEO CLIPS</h2>
+        <div id="videos">
+          <div class="videoWrapper1">
+            <iframe id="vid1" src="https://www.youtube.com/embed/ilx3VC402SQ"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe></div>
+          <!--Video embed-->
+          <div class="videoWrapper2">
+            <iframe id="vid2" src="https://www.youtube.com/embed/dtZ8osvmX2Y"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe></div>
+          <div class="videoWrapper3">
+            <iframe id="vid3" src="https://www.youtube.com/embed/IND25dLc6xc"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe></div>
+          <video id="vid4" controls>
+            <source src="videos/vid4.mp4" type="video/mp4">
+          </video>
+          <!--Video Source-->
+          <video id="vid5" controls>
+            <source src="videos/vid5.mp4" type="video/mp4">
+          </video>
+          <video id="vid6" controls>
+            <source src="videos/vid6.mp4" type="video/mp4">
+          </video>
+        </div>
+        <br>
+        <h2 class="headTxt2">AUDIO CLIPS</h2>
+        <div id="audio">
+          <iframe id="audio1" src="https://open.spotify.com/embed/track/5EtTKRcUkq3TNHKy4yioPk"
+            allow="encrypted-media"></iframe>
+          <!--Audio Embed-->
+          <iframe id="audio2" src="https://open.spotify.com/embed/track/2d2PYHDY0y8nGBYcYimNkx"
+            allow="encrypted-media"></iframe>
+
+          <iframe id="audio3" src="https://open.spotify.com/embed/track/36KiO70QkpnQzNFHONojcB"
+            allow="encrypted-media"></iframe>
+          <h3 class="headTxt2">Untitled Pieces</h3>
+          <audio class="audioSrc" controls src="audio/LaDispute-A.mp3"></audio>
+          <!--Audio Source-->
+          <audio class="audioSrc" controls src="audio/LaDispute-B.mp3"></audio>
+          <audio class="audioSrc" controls src="audio/LaDispute-C.mp3"></audio>
+        </div>
+      </div>
+      <!--End of left section-->
+      <div class="right">
+        <!--Start of right section-->
+        <h3 id="headTxt3">NEWS</h3>
+        <ul class="rightList">
+          <li class="listHead">NOV 19</li>
+          <li class="listContent">New song up for Patreon subscribers on the page.</li>
+          <li class="listHead">NOV 7</li>
+          <li class="listContent">Pleased to inform you I have today, in honor of waived
+            bandcamp fees!</li>
+          <li class="listHead">APR 22</li>
+          <li class="listContent">New “HERE, HEAR” music, a companion podcast documenting the process, + more. Subscribe
+            and support!</li>
+        </ul>
+      </div>
+      <!--End of right section-->
+    </main>
+    <!--End of main-->
+  </div>
+  <!--End of backgorund-->
+
+  <footer class="footer">
+    <!--Start of footer-->
+    <a href="http://epitaph.com/" target="_blank"><img id="sponsor" src="images/epitaph.png"
+        alt="Epitaph Records Logo"></a>
+    <div id="footerLinks">
+      <a class="linkBtm" id="homeBtm" href="index.html">HOME</a>
+      <a class="linkBtm" id="comingBtm" href="coming-soon.html">COMING SOON</a>
+      <a class="linkBtm" id="linksBtm" href="links.html">LINKS</a>
+      <a class="linkBtm" id="videoBtm" href="#">VIDEO</a>
+      <a class="linkBtm" id="contactBtm" href="contact.html">CONTACT</a>
+    </div>
+    <a class="linkBtm" id="fbIcon" href="https://www.facebook.com/LaDisputeMusic/" target="_blank"><img
+        src="images/fbIcon.svg" alt="Facebook Link"></a>
+    <a class="linkBtm" id="twitterIcon" href="https://twitter.com/ladisputeband" target="_blank"><img
+        src="images/twitIcon.svg" alt="Twitter Link"></a>
+
+  </footer>
+  <!--End of footer-->
+</body>
+<!--End of body-->
+
+</html>
