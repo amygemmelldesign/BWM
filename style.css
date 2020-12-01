@@ -25,7 +25,7 @@ p {
 
 /*Setting full page background image*/
 #bgImg {
-    background-image: url(Images/Home.png);
+    background-image: url(images/Home.png);
     /*Background properties*/
     min-height: 100vh;
     background-repeat: no-repeat;
@@ -36,7 +36,7 @@ p {
 
 /*Header background image*/
 #headBgImg {
-    background-image: url(Images/disputebg4.png);
+    background-image: url(images/disputebg4.png);
     position: absolute;
     top: 0;
     left: 0;
