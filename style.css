@@ -25,7 +25,7 @@ p {
 
 /*Setting full page background image*/
 #bgImg {
-    background-image: url(images/Home.png);
+    background-image: url(images/home.png);
     /*Background properties*/
     min-height: 100vh;
     background-repeat: no-repeat;
@@ -244,16 +244,18 @@ main {
 }
 
 #spotifyImg {
-    width: 51px;
-    height: auto
+    width: 50px;
+    height: auto;
+    position: relative;
+    left: 0.6px;
 }
 
 #appleImg {
-    width: 70px;
+    width: 68.5px;
     height: auto;
     position: relative;
-    bottom: 10px;
-    right: 9px;
+    bottom: 9px;
+    right: 8.9px;
 }
 
 #appleTxt {
@@ -479,7 +481,7 @@ input:-webkit-autofill:active  {
     height: max-content;
     grid-area: leftForm;
     position: relative;
-    top: 100%;
+    top: 95%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -487,15 +489,16 @@ input:-webkit-autofill:active  {
 #reasonLabel {
     grid-area: rightForm;
     text-align: center;
+
 }
 
 #reason {
     width: 25%;
-    min-width: fit-content;
+    min-width: max-content;
     height: 30px;
     grid-area: rightForm;
     position: relative;
-    top: 90px;
+    top: 95%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -504,6 +507,8 @@ select,
 option {
     background-color: #2E2E2E;
     color: #ffffff;
+    position: relative;
+    
 }
 
 textarea {
@@ -588,6 +593,7 @@ textarea {
     height: 85px;
     background-color: #2E2E2E;
     color: #ffffff;
+    overflow: hidden;
 }
 
 /*Sponsor on left of footer*/
@@ -651,7 +657,7 @@ textarea {
 
 /*For links page*/
 @media only screen and (min-width: 1384px) {
-    .linksBtns:hover {
+    .linksBtns:hover{
         transition: width 1s;
         border: solid #161616;
         width: 200px;
@@ -677,7 +683,7 @@ textarea {
 
     /*Top Head Text*/
     #headTxt {
-        font-size: 71px;
+        font-size: 62px;
         max-width: 50px;
         top: 10px;
         left: 160px;
@@ -688,6 +694,7 @@ textarea {
         height: 254px;
         background-position: right;
         border-bottom: dotted black;
+        border-bottom-width: 1.9px;
     }
 
     /*Bg img for full page*/
@@ -809,7 +816,7 @@ textarea {
 
     #spotifyImg {
         position: relative;
-        right: 40px;
+        left: -40px ;
     }
 
     #spotifyTxt {
@@ -826,11 +833,6 @@ textarea {
     #googleImg {
         position: relative;
         left: -15px;
-    }
-
-    #googleTxt {
-        position: relative;
-        left: 0;
     }
 
     #patreonImg {
