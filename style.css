@@ -82,6 +82,8 @@ nav {
     padding: 0px !important;
 }
 
+
+
 /*Nav link button*/
 .nav-link {
     color: #000000 !important;
@@ -101,9 +103,12 @@ nav {
 .navbar-brand {
     padding: 0px !important;
     height: 62px;
-    image-rendering: crisp-edges;
+    
 }
-
+#navImg{
+    width: 55px;
+    height: auto;
+}
 /*Nav bar burger*/
 .navbar-toggler {
     background-color: transparent !important;
