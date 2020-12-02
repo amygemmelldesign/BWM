@@ -645,6 +645,9 @@ textarea {
 #fbLogo{
     width: 56px;
 }
+#twitterLogo{
+    width: 56px;
+}
 #twitterLink {
     position: absolute;
     right: 5px;
@@ -864,14 +867,14 @@ textarea {
     }
     #fbLink{
         top: 20px;
-        right: 40px;
+        right: 45px;
     }
     #fbLogo{
         width: 44.79px;
     }
     #twitterLink{
         top: 20px;
-        right: -5px;
+        right: 0;
     }
     #twitterLogo{
         width: 44.79px;
