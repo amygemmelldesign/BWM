@@ -674,12 +674,12 @@ textarea {
     #headTxt {
         font-size: 60px;
         max-width: 50px;
-        left: 140px;
+        left: 125px;
         top: 0;
     }
     /*Bg Img for header*/
     #headBgImg {
-        height: 215px;
+        height: 216px;
         background-position: right;
         border-bottom: dotted black;
         border-bottom-width: 1.9px;
