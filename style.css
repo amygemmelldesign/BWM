@@ -66,8 +66,8 @@ p {
     font-size: 100px;
     position: relative;
     bottom: 130px;
+    left: 160px;
     color: #2E2E2E;
-    width: fit-content;
 }
 
 /*Border for nav*/
@@ -669,10 +669,10 @@ textarea {
 
     /*Top Head Text*/
     #headTxt {
-        font-size: 50px;
+        font-size: 60px;
         max-width: min-content;
-        top: 50px;
-        left: 160px;
+        left: 162px;
+        bottom: 150px;
     }
     /*Bg Img for header*/
     #headBgImg {
