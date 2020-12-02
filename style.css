@@ -5,7 +5,7 @@ html,
 body {
     position: relative;
     min-height: 100%;
-    min-width: 99vw;
+    min-width: 100%;
 }
 
 body {
@@ -63,7 +63,8 @@ p {
 /*Header text*/
 #headTxt {
     font-family: 'Montserrat Subrayada', sans-serif;
-    font-size: 115px;
+    font-size: 500%;
+    
     position: absolute;
     left: 200px;
     color: #2E2E2E;
@@ -683,8 +684,8 @@ textarea {
 
     /*Top Head Text*/
     #headTxt {
-        font-size: 62px;
-        max-width: 50px;
+        font-size: 400%;
+        max-width: min-content;
         top: 10px;
         left: 160px;
     }
