@@ -642,7 +642,9 @@ textarea {
     right: 60px;
     top: 15px;
 }
-
+#fbLogo{
+    width: 56px;
+}
 #twitterLink {
     position: absolute;
     right: 5px;
