@@ -3,8 +3,10 @@
 /*Import fonts*/
 html,
 body {
-    position: relative;
+    position: absolute;
     min-height: 100%;
+    width: 100%;
+    min-width: 382px;
     
 }
 
@@ -634,17 +636,18 @@ textarea {
 }
 
 /*Social links on right of footer*/
-#fbIcon {
+#fbLink {
     position: absolute;
     right: 60px;
     top: 15px;
 }
 
-#twitterIcon {
+#twitterLink {
     position: absolute;
     right: 5px;
     top: 15px;
 }
+
 
 /*For links page*/
 @media only screen and (min-width: 1384px) {
@@ -852,8 +855,22 @@ textarea {
 }
 @media only screen and (max-width: 499px){
     #headTxt{
-        font-size: 55px;
+        font-size: 13vw;
         left: 115px;
         top: 10px;
+    }
+    #fbLink{
+        top: 20px;
+        right: 40px;
+    }
+    #fbLogo{
+        width: 80%;
+    }
+    #twitterLink{
+        top: 20px;
+        right: -5px;
+    }
+    #twitterLogo{
+        width: 80%;
     }
 }
