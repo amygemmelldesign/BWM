@@ -29,7 +29,7 @@ p {
     background-image: url(images/home.png);
     /*Background properties*/
     min-height: 100vh;
-    min-width: 100%;
+    max-width: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 30%;
@@ -52,7 +52,7 @@ p {
 
 /*BWM Logo*/
 #bwmLogo {
-    position: absolute;
+    position: relative;
     top: 0;
     left: -27px;
     width: 10%;
@@ -63,10 +63,10 @@ p {
 /*Header text*/
 #headTxt {
     font-family: 'Montserrat Subrayada', sans-serif;
-    font-size: 500%;
-    
-    position: absolute;
+    font-size: 100px;
+    position: relative;
     left: 200px;
+    bottom: 130px;
     color: #2E2E2E;
     width: fit-content;
 }
@@ -689,10 +689,6 @@ textarea {
         top: 50px;
         left: 160px;
     }
-
-        #bwmLogo{
-            max-width: max-content;
-        }
     /*Bg Img for header*/
     #headBgImg {
         height: 254px;
