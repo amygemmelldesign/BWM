@@ -54,6 +54,7 @@ p {
     top: 0;
     left: -27px;
     width: 10%;
+    min-width: 200px;
     height: 98%;
 }
 
@@ -64,6 +65,7 @@ p {
     position: absolute;
     left: 200px;
     color: #2E2E2E;
+    width: fit-content;
 }
 
 /*Border for nav*/
@@ -676,10 +678,6 @@ textarea {
         height: 188px;
     }
 
-    /*Top logo*/
-    #bwmLogo {
-        height: 188px;
-    }
 
     /*Top Head Text*/
     #headTxt {
