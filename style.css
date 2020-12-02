@@ -52,21 +52,21 @@ p {
 
 /*BWM Logo*/
 #bwmLogo {
-    position: relative;
-    top: 0;
-    left: -27px;
     width: 10%;
-    min-width: 200px;
+    min-width: 120px;   
     height: 98%;
+    position: absolute;
+    top: 0;
+    left: -45px;
 }
 
 /*Header text*/
 #headTxt {
     font-family: 'Montserrat Subrayada', sans-serif;
     font-size: 100px;
-    position: relative;
-    bottom: 130px;
-    left: 160px;
+    position: absolute;
+    top: 20px;
+    left: 140px;
     color: #2E2E2E;
 }
 
@@ -663,20 +663,23 @@ textarea {
 
     /*Div at top of pages*/
     #topContain {
-        height: 188px;
+        height: 150px;
     }
-
+    
+    #bwmLogo{
+        left: 0;
+    }
 
     /*Top Head Text*/
     #headTxt {
         font-size: 60px;
-        max-width: min-content;
-        left: 162px;
-        bottom: 150px;
+        max-width: 50px;
+        left: 140px;
+        top: 0;
     }
     /*Bg Img for header*/
     #headBgImg {
-        height: 254px;
+        height: 215px;
         background-position: right;
         border-bottom: dotted black;
         border-bottom-width: 1.9px;
@@ -729,16 +732,6 @@ textarea {
         margin-right: auto;
         width: 100%;
         max-width: 520px;
-    }
-
-    /*Album img on hoem page*/
-    #newAlbum {
-        width: 100%;
-        max-width: 520px;
-        min-width: 0;
-        margin-left: auto;
-        margin-right: auto;
-        position: initial;
     }
 
     /*Bundle images on home*/
