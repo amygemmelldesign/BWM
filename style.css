@@ -101,6 +101,7 @@ nav {
 .navbar-brand {
     padding: 0px !important;
     height: 62px;
+    image-rendering: crisp-edges;
 }
 
 /*Nav bar burger*/
