@@ -684,12 +684,15 @@ textarea {
 
     /*Top Head Text*/
     #headTxt {
-        font-size: 400%;
+        font-size: 50px;
         max-width: min-content;
-        top: 10px;
+        top: 50px;
         left: 160px;
     }
 
+        #bwmLogo{
+            max-width: max-content;
+        }
     /*Bg Img for header*/
     #headBgImg {
         height: 254px;
