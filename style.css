@@ -149,17 +149,6 @@ main {
     height: auto;
 }
 
-/*Lower Left Image*/
-#newAlbum {
-    grid-area: btmRight2;
-    width: 560px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    position: relative;
-    left: 100px;
-
-}
-
 /*Lower Left Image 2*/
 #disputeBand {
     grid-area: btmLeft;
@@ -170,13 +159,6 @@ main {
     font-size: 40px;
     font-family: 'Raleway', sans-serif;
     text-align: center;
-}
-
-#homeAudio {
-    width: 100%;
-    height: 80px;
-    border: 0;
-    background-color: transparent;
 }
 
 /*Lower Left Text*/
@@ -196,6 +178,7 @@ main {
 /*Position of links in lower grid*/
 #bundleLink {
     grid-area: btmRight;
+    width: 100%;
     max-width: 332.12px;
     max-height: 336.7px;
     position: relative;
@@ -205,6 +188,7 @@ main {
 
 #bundleLink2 {
     grid-area: btmRight;
+    width: 100%;
     max-width: 332.12px;
     max-height: 336.7px;
     position: relative;
@@ -216,6 +200,7 @@ main {
 #bundle1 {
     position: relative;
     bottom: 15px;
+    width: 100%;
     max-width: 332.13px;
     max-height: 336.7px;
 }
@@ -223,6 +208,7 @@ main {
 #bundle2 {
     position: relative;
     bottom: 30px;
+    width: 100%;
     max-width: 332.13px;
     max-height: 336.7px;
 }
