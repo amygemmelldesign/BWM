@@ -853,5 +853,7 @@ textarea {
 @media only screen and (max-width: 499px){
     #headTxt{
         font-size: 55px;
+        left: 115px;
+        top: 10px;
     }
 }
