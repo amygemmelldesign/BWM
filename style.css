@@ -29,7 +29,7 @@ p {
     background-image: url(images/home.png);
     /*Background properties*/
     min-height: 100vh;
-    max-width: 100vw;
+    max-width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 30%;
